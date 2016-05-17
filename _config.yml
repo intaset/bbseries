@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /icbb
+exclude: ['README.md',]
