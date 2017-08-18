@@ -41,9 +41,9 @@ $message = build_message($_REQUEST);
 
 $message = 'Dear Colleague,
 
-Thank you for registering for ICBB 2017. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+Thank you for registering for ICBB 2018. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
-If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@bbseries.org. You can find the copyright form here: www.2017.bbseries.org/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
+If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@bbseries.org. You can find the copyright form here: www.2018.bbseries.org/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
 
 You can find your registration details below. If there are any errors in the information you have provided, please write an email to us at registration@bbseries.org mentioning the correct information. Please note that you SHOULD NOT refill the form.
 
@@ -65,9 +65,9 @@ $headers = "From: " . $_REQUEST['email'];
 
 $your_email = $_REQUEST['email'];
 
-$your_subject = "Your Registration Details for ICBB'17";
+$your_subject = "Your Registration Details for ICBB'18";
 
-$your_headers = "From: ICBB'17 <" . $my_email . ">";
+$your_headers = "From: ICBB'18 <" . $my_email . ">";
 
 if ((($_FILES["file"]["type"] == "image/gif")
 
@@ -113,7 +113,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
 <meta name="keywords" content="biotechnology conference, biofuel conference, biomaterials conference, biomedical conference, bioengineering conference, biocatalysis conference, biochemical engineering conference, biochemistry, bioenergy, biology, biomechanics, biomechatronics conference, biomedicine, toxicology, biotechnology, biofuel, biomaterials, biomedical, bioengineering, biocatalysis, biochemical engineering, biochemistry conference, bioenergy conference, biology conference, biomechanics conference, biomechatronics, biomedicine conference, toxicology conference">
-<title>ICBB'17 - Registration Form Filled!</title>
+<title>ICBB'18 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -142,7 +142,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>ICBB'17</h1>
+  <h1>ICBB'18</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Paper Submissions</a></li>
@@ -184,8 +184,8 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on<br>Bioengineering and Biotechnology (ICBB'17)</h1>
-          <p class="subhead">June 6 - 8, 2017 | Rome, Italy</p>
+          <h1>4<sup>th</sup> International Conference on<br>Bioengineering and Biotechnology (ICBB'18)</h1>
+          <p class="subhead">August 19 - 21, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -199,7 +199,7 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
 </div><br>
-<p class="body" style="text-align:center!important;">ICBB'17 is part of the <b>3<sup>rd</sup> World Congress on New Technologies (NewTech'17)</b>. For more information about the congress, please visit the website here: <a href="http://2017.newtechcongress.com/" class="body-link">www.2017.newtechcongress.com</a>.</p>
+<p class="body" style="text-align:center!important;">ICBB'18 is part of the <b>4<sup>th</sup> World Congress on New Technologies (NewTech'17)</b>. For more information about the congress, please visit the website here: <a href="http://2018.newtechcongress.com/" class="body-link">www.2018.newtechcongress.com</a>.</p>
         </div>
     </div>
 
@@ -211,8 +211,8 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on<br>Bioengineering and Biotechnology (ICBB'17)</h1>
-          <p class="subhead">June 6 - 8, 2017 | Rome, Italy</p>
+          <h1>4<sup>th</sup> International Conference on<br>Bioengineering and Biotechnology (ICBB'18)</h1>
+          <p class="subhead">August 19 - 21, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -226,7 +226,7 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
 </div><br>
-<p class="body" style="text-align:center!important; color: #FFF!important;">ICBB'17 is part of the <b>3<sup>rd</sup> World Congress on New Technologies (NewTech'17)</b>.<br>For more information about the congress, please visit the website here: <a href="http://2017.newtechcongress.com/" class="body-link">www.2017.newtechcongress.com</a>.</p>
+<p class="body" style="text-align:center!important; color: #FFF!important;">ICBB'18 is part of the <b>4<sup>th</sup> World Congress on New Technologies (NewTech'17)</b>.<br>For more information about the congress, please visit the website here: <a href="http://2018.newtechcongress.com/" class="body-link">www.2018.newtechcongress.com</a>.</p>
         </div>
         </div> 
       </div>
@@ -240,20 +240,8 @@ mail($your_email,$your_subject,$message,$your_headers);
       <div id="main-slider" class="liquid-slider">
     <div>
       <h2 class="title">1</h2>
-      <p class="bold">ICBB 2017:</p>
-      <p class="body">ICBB 2017 will  be held in Rome, Italy on June 6 - 8, 2017.</p>
-
-      <p class="bold">NewTech'17 Workshop</p>
-      <p class="body">International ASET Inc. is proud to present <b>Dr. Vladimir Baulin</b> as the presenter of our workshop for the 3<sup>rd</sup> World Congress on New Technologies (NewTech'17).</p>
-
-      <cenet><p class="body" style="text-align: center!important;"><b>Topic of Workshop:</b> <i>Smart Nano-objects for Alteration of Lipid bilayers (SNAL)</i></p>
-
-      <p class="body">The workshop will be held on <b>June 6<sup>th</sup>, 2017</b> from <b>2 pm - 5 pm.</b> Registration for the workshop will be <i>121 EURs (VAT included)</i> and separate from the main conferences. Workshop attendees will receive a certificate of participation.</p>
-
-      <p class="body">For registration, please visit: <a href="../registration" class="body-link">here.</a></p>
-
-      <p class="body">For more information about the workshop and the speaker, please visit:  <a href="http://newtechcongress.com/#workshop" class="body-link" target="_blank">here.</a></p>
-    </div>       
+      <p class="bold">ICBB 2018:</p>
+      <p class="body">ICBB 2018 will  be held in Madrid, Spain on August 19 - 21, 2018.</p>
 
     <div>
       <h2 class="title">2</h2>
@@ -263,8 +251,8 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <div>
       <h2 class="title">3</h2>
-      <p class="bold">Propose Exhibits, Workshops & More</p>
-      <p class="body">ICBB attracts a wide range of researchers in the field of bioengineering and biotechnology. As a prominent company in the field of bioengineering and biotechnology, we would like to offer you an exhibit at ICBB. Please visit <a href="../events" class="body-link">Events</a> for more information.</p>
+      <p class="bold">Become a Sponsor or an Exhibitor</p>
+      <p class="body">ICBB attracts a wide range of researchers in the field of bioengineering and biotechnology. As a prominent company in the field of bioengineering and biotechnology, we would like to offer you an exhibit at ICBB. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
     </div>
 </div>
 
@@ -281,41 +269,38 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@bbseries.org" class="body-link">registration@bbseries.org</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-  <p class="body">We are looking forward to seeing you at ICBB'17!</p>
+  <p class="body">We are looking forward to seeing you at ICBB'18!</p>
   </div>
 </div>
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
+   
     <section class="main">
-        <div class="custom-calendar-wrap">
-          <div id="custom-inner" class="custom-inner">
-            <div class="custom-header clearfix">
-              <nav>
-                <span id="custom-prev" class="custom-prev"></span>
-                <span id="custom-next" class="custom-next"></span>
-              </nav>
-              <h2 id="custom-month" class="custom-month"></h2>
-              <h3 id="custom-year" class="custom-year"></h3>
-            </div>
-            <div id="calendar" class="fc-calendar-container"></div>
-          </div>
-        </div>
-      </section>
+
+      <ul class="side-bar-menu" style="padding:0px;">
+        <li><a href="../sponsor">Sponsors &amp; Exhibitors</a></li>
+        <li><a href="../symposium">Symposium &amp; Workshop</a></li>
+      </ul>
+
+    </section>
+
+    <br><br>
+   
     <h2>Upcoming Dates</h2>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-     <div class="past">Dec. 1, 2016</div>
-     Mar. 24, 2017
+     <!-- <div class="past">Dec. 1, 2016</div> -->
+     TBA
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-     <div class="past past-text">Paper Submission Deadline</div>
-     Final Extended Paper Submission Deadline
+     <!-- <div class="past past-text">Paper Submission Deadline</div> -->
+     Paper Submission Deadline
   </div>
 </div>
 </div>
@@ -323,15 +308,15 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">Feb. 15, 2017</div>
-    Mar. 27, 2017
+    <!-- <div class="past">Feb. 15, 2017</div> -->
+    TBA
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    <div class="past past-text">Notification of Authors</div> 
-      Final Extended Notification of Authors
+    <!-- <div class="past past-text">Notification of Authors</div> --> 
+      Notification of Authors
   </div>
 </div>
 </div>
@@ -339,14 +324,14 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">Mar. 1, 2017</div>
-    Apr. 20, 2017
+    <!-- <div class="past">Mar. 1, 2017</div> -->
+    TBA
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-     <div class="past past-text">Final Version of Accepted Submissions Deadline</div> 
+     <!-- <div class="past past-text">Final Version of Accepted Submissions Deadline</div>  -->
      Final Version of Accepted Submissions Deadline
   </div>
 </div>
@@ -372,7 +357,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
   <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
   <div class="unit-spacer">
-  <p class="body">For questions or comments regarding ICBB'17, please fill out the form below:</p>
+  <p class="body">For questions or comments regarding ICBB'18, please fill out the form below:</p>
 
     <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm">
   
@@ -428,7 +413,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <div class="copyright">
   <a href="http://international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
-  <p class="body">&copy; Copyright International ASET Inc., 2016. All rights reserved.</p>
+  <p class="body">&copy; Copyright International ASET Inc., 2017. All rights reserved.</p>
   <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
 </div>
 </div>
