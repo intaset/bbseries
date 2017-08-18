@@ -21,7 +21,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
   else 
     mail($my_email,$subject,$message,$headers);
 }
-
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -157,19 +157,24 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
       <div id="main-slider" class="liquid-slider">
     <div>
       <h2 class="title">1</h2>
-      <p class="bold">ICBB 2017:</p>
-      <p class="body">ICBB 2017 will  be held in Rome, Italy on June 6 - 8, 2017.</p>
+      <p class="bold">ICNFA 2018:</p>
+      <p class="body">ICNFA 2018 will  be held in Madrid, Spain on August 19 - 21, 2018.</p>
 
-      <p class="bold">NewTech'17 Workshop</p>
-      <p class="body">International ASET Inc. is proud to present <b>Dr. Vladimir Baulin</b> as the presenter of our workshop for the 3<sup>rd</sup> World Congress on New Technologies (NewTech'17).</p>
+      <!--p class="body">As per popular request, the organizing committee has decided to extend the NewTech'17 congress to three days (now June 6 - 8, 2017). The new high-level schedule is as follows:</p>
 
-      <cenet><p class="body" style="text-align: center!important;"><b>Topic of Workshop:</b> <i>Smart Nano-objects for Alteration of Lipid bilayers (SNAL)</i></p>
+      <ul>
+        <li>Day 1: Workshop(s) and Registration</li>
+        <li>Day 2: Main Track Conference Sessions</li>
+        <li>Day 2: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
+      </ul>
+      
+      <p class="body">Registration for the workshop will be 122 EURs (VAT included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
 
-      <p class="body">The workshop will be held on <b>June 6<sup>th</sup>, 2017</b> from <b>2 pm - 5 pm.</b> Registration for the workshop will be <i>121 EURs (VAT included)</i> and separate from the main conferences. Workshop attendees will receive a certificate of participation.</p>
+      <p class="body">More information to follow; we greatly appreciate your patience!</p-->
 
-      <p class="body">For registration, please visit: <a href="../registration" class="body-link">here.</a></p>
+      <p class="bold">Poster Board Dimensions:</p>
+      <p class="body">Authors presenting via poster boards are to be informed that poster boards are 100 cm height and 90 cm width.</p>
 
-      <p class="body">For more information about the workshop and the speaker, please visit:  <a href="http://newtechcongress.com/#workshop" class="body-link" target="_blank">here.</a></p>
     </div>       
 
     <div>
@@ -180,8 +185,8 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
     <div>
       <h2 class="title">3</h2>
-      <p class="bold">Propose Exhibits, Workshops & More</p>
-      <p class="body">ICBB attracts a wide range of researchers in the field of bioengineering and biotechnology. As a prominent company in the field of bioengineering and biotechnology, we would like to offer you an exhibit at ICBB. Please visit <a href="../events" class="body-link">Events</a> for more information.</p>
+      <p class="bold">Become a Sponsor or an Exhibitor</p>
+      <p class="body">ICNFA attracts a wide range of researchers in the field of nanotechnology. As a prominent company in the field of nanotechnology, we would like to offer you an exhibit at ICNFA. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
     </div>
 </div>
 
@@ -197,21 +202,17 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
+    
+
     <section class="main">
-        <div class="custom-calendar-wrap">
-          <div id="custom-inner" class="custom-inner">
-            <div class="custom-header clearfix">
-              <nav>
-                <span id="custom-prev" class="custom-prev"></span>
-                <span id="custom-next" class="custom-next"></span>
-              </nav>
-              <h2 id="custom-month" class="custom-month"></h2>
-              <h3 id="custom-year" class="custom-year"></h3>
-            </div>
-            <div id="calendar" class="fc-calendar-container"></div>
-          </div>
-        </div>
-      </section>
+      <ul class="side-bar-menu" style="padding:0px;">
+        <li><a href="../sponsor">Sponsors &amp; Exhibitors</a></li>
+        <li><a href="../symposium">Symposium &amp; Workshop</a></li>
+      </ul>
+    </section>
+    <br><br>
+
+
     <h2>Upcoming Dates</h2>
 
 <div class="grid events">
