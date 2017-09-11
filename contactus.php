@@ -37,7 +37,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="../css/ffhmt.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 <!--[if IE-9]><html lang="en" class="ie9"><![endif]-->
@@ -88,41 +88,43 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 </div>
 </div>
 
-  <header>
-    <div class="mobile">
+<header>
+  <div class="mobile">
       <div class="cbp-af-header">
-  <div class="cbp-af-inner">
-    <div class="unit unit-s-3-4 unit-m-1-3 unit-l-1-3">
-          <a href="/"><img src="../img/logo.png" class="flex-logo"></a>
+        <div class="cbp-af-inner">
+          <div class="unit unit-s-3-4 unit-m-1-3 unit-l-1-3">
+            <a href="/"><img src="../img/logo.png" class="flex-logo"></a>
+          </div>
+          <div class="unit unit-s-1-3 unit-m-2-3 unit-m-2-3-1 unit-l-2-3">
+            <div class="menu-trigger"></div>
+          </div>
+        </div>
       </div>
-      <div class="unit unit-s-1-3 unit-m-2-3 unit-m-2-3-1 unit-l-2-3">
-          <div class="menu-trigger"></div>
-      </div>
-  </div>
-</div>
-        <div class="bg">
+      <div class="bg">
           <h1>4<sup>th</sup> International Conference on<br>Bioengineering and Biotechnology (ICBB'18)</h1>
           <p class="subhead">August 19 - 21, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
-        <div class="searchbox grid">
-        <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-          <div class="unit unit-s-1 unit-m-1-4-2 unit-l-1-4-2">
-            <p class="body">Search:</p> 
-          </div>
- <div class="unit unit-s-3-4 unit-m-3-4 unit-l-3-4">
-        <gcse:searchbox-only resultsUrl="../results"></gcse:searchbox-only>
-  </div>
-</div>
-</div><br>
-      <p class="body" style="text-align:center!important;">ICBB'18 is part of the <b>4<sup>th</sup> World Congress on New Technologies (NewTech'17)</b>. For more information about the congress, please visit the website here: <a href="http://2018.newtechcongress.com/" class="body-link">www.2018.newtechcongress.com</a>.</p>
-        </div>
-    </div>
+          <div class="searchbox grid">
+            <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+              <div class="unit unit-s-1 unit-m-1-4-2 unit-l-1-4-2">
+                <p class="body">Search:</p> 
+              </div>
+              <div class="unit unit-s-3-4 unit-m-3-4 unit-l-3-4">
+                <gcse:searchbox-only resultsUrl="../results"></gcse:searchbox-only>
+              </div>
+            </div>
+          </div><br>
 
-    <div class="desktop">
-      <div class="grid">
-        <div class="unit unit-s-1 unit-m-1 unit-l-1">
+          p class="body" style="text-align:center!important;">ICBB'18 is part of the <b>4<sup>th</sup> World Congress on New Technologies (NewTech'17)</b>. For more information about the congress, please visit the website here: <a href="http://2018.newtechcongress.com/" class="body-link">www.2018.newtechcongress.com</a>.</p>
+      </div>
+  </div>
+
+  <div class="desktop">
+    <div class="grid">
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+
         <div class="bg-img">
           <img src="../img/header.jpg" class="flex-img" alt="Header">
         </div>
@@ -133,47 +135,49 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
-        <div class="searchbox grid">
-        <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-          <div class="unit unit-s-1 unit-m-1-4-2 unit-l-1-4-2">
-            <p class="body">Search:</p> 
-          </div>
- <div class="unit unit-s-3-4 unit-m-3-4 unit-l-3-4">
-        <gcse:searchbox-only resultsUrl="../results"></gcse:searchbox-only>
-  </div>
-</div>
-</div><br>
-<p class="body" style="text-align:center!important; color: #FFF!important;">ICBB'18 is part of the <b>4<sup>th</sup> World Congress on New Technologies (NewTech'17)</b>.<br>For more information about the congress, please visit the website here: <a href="http://2018.newtechcongress.com/" class="body-link">www.2018.newtechcongress.com</a>.</p>
+          <div class="searchbox grid">
+            <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+              <div class="unit unit-s-1 unit-m-1-4-2 unit-l-1-4-2">
+                <p class="body">Search:</p> 
+              </div>
+              <div class="unit unit-s-3-4 unit-m-3-4 unit-l-3-4">
+                      <gcse:searchbox-only resultsUrl="../results"></gcse:searchbox-only>
+              </div>
+            </div>
+          </div><br>
+
+          <p class="body" style="text-align:center!important; color: #FFF!important;">ICBB'18 is part of the <b>4<sup>th</sup> World Congress on New Technologies (NewTech'17)</b>.<br>For more information about the congress, please visit the website here: <a href="http://2018.newtechcongress.com/" class="body-link">www.2018.newtechcongress.com</a>.</p>
         </div>
-        </div> 
-      </div>
+
+      </div> 
     </div>
+  </div>
   </header>
 
   <div class="grid main-content">
-  <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
-    <div class="unit-spacer">
-      <h2>Announcements</h2>
-      <div id="main-slider" class="liquid-slider">
-    <div>
-      <h2 class="title">1</h2>
-      <p class="bold">ICBB 2018:</p>
-      <p class="body">ICBB 2018 will  be held in Madrid, Spain on August 19 - 21, 2018.</p>
+    <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
+      <div class="unit-spacer">
+        <h2>Announcements</h2>
+        <div id="main-slider" class="liquid-slider">
+          <div>
+            <h2 class="title">1</h2>
+            <p class="bold">ICBB 2018:</p>
+            <p class="body">ICBB 2018 will  be held in Madrid, Spain on August 19 - 21, 2018.</p>
+          </div>
+          <div>
+            <h2 class="title">2</h2>
+            <p class="bold">Best Paper Award:</p>
+            <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
+          </div>
 
-    <div>
-      <h2 class="title">2</h2>
-      <p class="bold">Best Paper Award:</p>
-      <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
+          <div>
+            <h2 class="title">3</h2>
+            <p class="bold">Become a Sponsor or an Exhibitor</p>
+            <p class="body">ICBB attracts a wide range of researchers in the field of bioengineering and biotechnology. As a prominent company in the field of bioengineering and biotechnology, we would like to offer you an exhibit at ICBB. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
+          </div>
     </div>
 
-    <div>
-      <h2 class="title">3</h2>
-      <p class="bold">Become a Sponsor or an Exhibitor</p>
-      <p class="body">ICBB attracts a wide range of researchers in the field of bioengineering and biotechnology. As a prominent company in the field of bioengineering and biotechnology, we would like to offer you an exhibit at ICBB. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
-    </div>
-</div>
-
-    </div>
+  </div>
   </div>
 
 <div class="unit unit-s-1 unit-m-1-4-1 unit-l-1-4-1">
