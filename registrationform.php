@@ -242,7 +242,7 @@ mail($your_email,$your_subject,$message,$your_headers);
       <h2 class="title">1</h2>
       <p class="bold">ICBB 2018:</p>
       <p class="body">ICBB 2018 will  be held in Madrid, Spain on August 19 - 21, 2018.</p>
-
+    </div>
     <div>
       <h2 class="title">2</h2>
       <p class="bold">Best Paper Award:</p>
